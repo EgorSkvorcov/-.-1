@@ -1,0 +1,36 @@
+
+
+input {
+background-color: deeppink;
+color: ivory;
+}
+
+button {
+    background-color: rgb(38, 31, 107);
+    color: ivory;
+    }
+
+::placeholder {
+color: ivory;
+}
+
+button:hover {
+    background-color: rgb(58, 155, 107);
+    color: ivory;
+    }
+
+body {
+    background-color: aquamarine;
+    }
+
+h1 {
+    font-style: italic;
+}
+
+input:hover{
+    background-color:rgb(48, 231, 209);
+}
+
+.radio {
+   color:rgb(49, 13, 40);
+}
