@@ -1,0 +1,19 @@
+body {
+    color: teal;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+div.fuchsia p {
+    color: fuchsia;
+}
