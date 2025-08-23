@@ -1,0 +1,143 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background: transparent;
+  }
+
+    .header, .footer {
+    background-color: purple;
+  }
+
+    /*.header-text {
+    background-color: aqua;
+  } */
+
+    /*.header-text {
+    background-color: aqua;
+    width: 300px;
+  } */
+
+    .header-text {
+    background-color: aqua;
+    width: 300px;
+    margin: 20px auto;
+  }
+
+    .header {
+    padding: 20px;
+  }
+  
+    .div-section-one, .div-section-two {
+    background-color: gray;
+    width: 700px;
+    border: 1px solid black;
+    margin: 10px auto;
+  }
+  
+    /*img {
+    width: 700px;
+    padding: 50px;
+    border: 1px solid black;
+    margin: 10px auto;
+  } */
+
+    img {
+    width: 700px;
+    padding: 50px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: block;
+  }
+
+  /*.div-section-two {
+    height: 120px;
+  } */
+
+  .div-section-one div, .div-section-two div {
+    background-color: darkcyan;
+    margin: 10px 30px;
+    padding: 5px 10px;
+  }
+
+  .h1 {
+    margin-top: -10px;
+  }
+  /* не понимаю как сделать пункт 15 */
+
+  .div-section-two {
+    height: 120px;
+    overflow: scroll;
+  }
+
+
+
+
+
+  header, h1, h3 {
+    text-align: center;
+  }
+
+  header {
+    padding: 50px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  main div {
+    background-color: blueviolet;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  main div h3 {
+    width: 500px;
+    background-color:rgb(34, 227, 156);
+    font-size: 22px;
+    margin: auto;
+  }
+  main div.h3 {
+    padding: 25px;
+  }
+  
+  p {
+    padding-left: 15px;
+    background-color: lightsalmon;
+    color: rgb(69, 110, 90);
+  }
+
+  p:hover {
+    background-color: rgb(69, 110, 90);
+    color: lightsalmon;
+  }
+
+  footer {
+    display: flex;
+    background-color: aqua;
+    height: 30px;
+  }
+
+  .phone {
+    padding-left: 1300px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .adress {
+    padding-left: 20px;
+    text-decoration: none;
+  }
+
+  footer a, .phone {
+    padding-top: 2px;
+    margin-top: 5px;
+  }
