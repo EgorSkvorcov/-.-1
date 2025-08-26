@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Rubik+Distressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+@font-face {
+    font-family: 'Ano';
+    src: url('../fonts/Anonymous_Pro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    width: 500px;
+    margin: 15px auto;
+}
+
+.fable {
+    background-color: beige;
+    width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.fable p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fable h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*h3 {
+    font-family: 'Ano';
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}*/
+
+/*h1 {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    margin: 10px auto;
+}*/
+
+/*h4 {
+    font-family: "Rubik Distressed", system-ui;
+    text-align: center;
+    width: 500px;
+    background-color: lightblue;
+    margin: 10px auto;
+}*/
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 15px auto;
+    width: 400px;
+    text-wrap: balance;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+}
+
+li::first-letter {
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 160%;
+}
+
+.fable {
+    font-size: 120%;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Ano';
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: "Rubik Distressed", system-ui;
+    text-align: center;
+    width: 500px;
+    background-color: lightblue;
+    margin: 10px auto;
+    font-size: 1.4em;
+}
