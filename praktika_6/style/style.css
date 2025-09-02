@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+/* p {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+} */
+
+/* img {
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  } */
+
+b {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+img:nth-of-type(even) {
+  float: right;
+}
+
+img:nth-of-type(odd) {
+  float: left;
+}
+
+img {
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  clear: both;
+}
+
+p {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.fon {
+  width: 500px;
+  height: 500px;
+  border: 20px dashed black;
+  margin: 30px auto;
+  background: url(../images/zakat.jpg) center/200px no-repeat content-box,
+    url(../images/fon.png) repeat padding-box, silver border-box;
+}
+
+h2 {
+  background-image: url(../images/sprait.png);
+  background-repeat: no-repeat;
+  background-position-y: -23px;
+  background-position-x: 3px;
+  padding-top: 2px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.title {
+  width: 295px;
+  margin: 10px auto;
+  background-color: rgb(228, 182, 126);
+  height: 25px;
+}
+
+h2:hover {
+  background-position-y: -51px;
+}
+
+/*нижний - 1-й слой с фоновым изображением которое у нас было задано изначально
+2-й слой состоящий из множественного повтора файла fon.png который начинается в левом верхнем углу элемента и распростроняется на содержимое и отступы не затрагивая границ элемента
+3-й слой состоящий из однократного повтора файла zakat.jpg который должен отображаться в содержимом элемента и по горизантале начинаться от левого края содержимого а по вертикале по середине.
+По желанию можете добавить над всеми слоями прозрачный градиент который, распологается внутри элемента и не затрагивает границ 
+- background-image,
+- background-position,
+- background-size,
+- background-repeat,
+- background-origin,
+- background-clip,
+- background-attachment,
+- background-color.*/
