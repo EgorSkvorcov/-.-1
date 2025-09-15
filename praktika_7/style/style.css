@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-color: rgb(74, 118, 168);
+  background-color: #4a76a8;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -29,17 +29,17 @@ header img {
 .logo img {
   width: 41px;
   height: 40px;
-  margin-left: 295px;
+  margin-left: 343px;
 }
 
 .sidebar {
-  margin: 7px 0px 7px 113px;
-  width: 224px;
-  height: 27px;
+  width: 287px;
+  padding: 6px 0;
   background-color: rgb(34, 75, 122);
   border-radius: 15px;
   display: flex;
   align-items: center;
+  margin-left: 160px;
 }
 
 .sidebar img {
@@ -56,8 +56,7 @@ header img {
 }
 
 .twos {
-  padding-left: 20px;
-  width: 100px;
+  /* margin-left: 38px; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -65,6 +64,7 @@ header img {
 .twos img {
   width: 25px;
   height: 25px;
+  margin-left: 40px;
 }
 
 .music {
@@ -72,7 +72,7 @@ header img {
 }
 
 .im {
-  margin-left: 625px;
+  margin-left: 290px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,9 +96,9 @@ main {
   display: flex;
 }
 
-/* .one {
-  width: 150;
-} */
+.one {
+  margin: 25px 25px 9px 350px;
+}
 
 .first-nav,
 .second-nav,
@@ -115,6 +115,10 @@ main {
 
 ul {
   list-style: none;
+}
+
+li {
+  margin-bottom: 12px;
 }
 
 nav div ul li img {
@@ -142,8 +146,8 @@ nav div ul li img {
 }
 
 .ad {
-margin-top: 20px;
-width: 150px;
+  margin-top: 20px;
+  width: 150px;
 }
 
 .ad img {
@@ -174,3 +178,162 @@ a {
   font-size: 14px;
 }
 
+article {
+  border: 1px solid #e4e6e9;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.header-chat {
+  max-width: 687px;
+  display: flex;
+  align-items: center;
+  color: #818d99;
+  border-bottom: 1px solid #e4e6e9;
+  padding: 15px 20px 10px 30px;
+}
+
+.title-chat {
+  display: flex;
+  flex-direction: column;
+  margin-left: 185px;
+  margin-right: 130px;
+}
+
+.title,
+.members {
+  text-align: center;
+}
+
+.title {
+  color: black;
+}
+
+.img-for-head {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-for-head img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.main-chat {
+  max-height: 720px;
+  overflow: scroll;
+}
+
+.main-chat img {
+  width: 45px;
+  border-radius: 25px;
+}
+
+.sms {
+  margin-bottom: 20px;
+}
+
+.chelovek {
+  display: flex;
+  margin-left: 40px;
+}
+
+.chel-title {
+  margin-left: 15px;
+  color: #42648b;
+  font-weight: bold;
+}
+
+.time {
+  margin-left: 10px;
+  color: #aeb2ba;
+}
+
+.text-in-sms-one {
+  position: relative;
+  right: 138px;
+  top: 21px;
+}
+
+.text-in-sms-two {
+  position: relative;
+  right: 159px;
+  top: 21px;
+}
+
+.second-chel {
+  margin: 10px 0 0 106px;
+}
+
+.second-chel img {
+  margin-left: 15px;
+}
+
+.line-in-sms {
+  max-height: 88px;
+  width: 3px;
+  display: inline-block;
+  background-color: #dee6ee;
+}
+
+.footer {
+  border-top: 1px solid #e4e6e9;
+}
+
+.footer img {
+  width: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+}
+
+.textarea {
+  border: 1px solid #d3d9de;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 0;
+  max-width: 470px;
+  display: flex;
+  align-items: center;
+}
+
+.textarea p {
+  margin-right: 190px;
+  color: #828282;
+  margin-left: 20px;
+}
+
+.textarea img {
+  margin-right: 18px;
+}
+
+.right-from-chat {
+  margin-left: 20px;
+  margin-top: 25px;
+  padding: 20px 114px 10px 30px;
+  background-color: #fff;
+  border: 1px solid #e4e6e9;
+  max-height: 210px;
+  max-width: 290px;
+}
+
+.right-from-chat ul li {
+  margin-bottom: 25px;
+  color: #2a5885;
+  width: 135px;
+}
+
+.right-from-chat .separate {
+  width: 250px;
+  color: black;
+  border-top: 1px solid #aeb2ba;
+  background-color: #f0f2f5;
+}
