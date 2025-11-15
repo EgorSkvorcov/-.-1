@@ -1,0 +1,138 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+.label,
+.third-block,
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.input__fio {
+	padding: 15px;
+	width: 300px;
+	font-size: 18px;
+}
+
+.input__date {
+	padding: 15px;
+	width: 300px;
+	font-size: 18px;
+}
+
+.input__number {
+	width: 40px;
+}
+
+.disciplines,
+.technologies {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+.input__fio::placeholder {
+	font-size: 18px;
+}
+
+.input__txt {
+	outline: none;
+	border: 1px solid black;
+}
+
+.input__txt:focus {
+	border-color: aquamarine;
+}
+
+.genders {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.label__school {
+	gap: 15px;
+}
+
+select {
+	width: 100px;
+}
+
+.disciplines-studied,
+.male {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.disciplines-studied:checked,
+.male:checked {
+	background-color: #d667ff;
+	border: 1px solid #d667ff;
+}
+
+.technologies__studied {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid black;
+}
+
+.technologies__studied:checked {
+	background-color: #ff6f6f;
+	border: 1px solid #ff6f6f;
+}
+
+.third-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.prank {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.prank div {
+	display: none;
+  position: absolute;
+  top: 30px;
+  width: 201px;
+}
+
+.prank:active div {
+	display: block;
+}

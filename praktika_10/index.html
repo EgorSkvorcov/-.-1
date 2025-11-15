@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/style.css" />
+		<title>Практика 10 Егор</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Анкета начинающего программиста</h1>
+			<form action="http://cdbnd.ru/primeri_dly_urokov/forma_prog.php" method="post">
+				<div class="first-block">
+					<h2>Анкетные данные</h2>
+					<label for="name" class="label fio">
+						<h3>ФИО</h3>
+						<input
+							required
+							class="input__txt input__fio"
+							id="name"
+							name="name"
+							type="text"
+							placeholder="ФИО без сокращений"
+							autofocus
+						/>
+					</label>
+
+					<label for="date" class="label label__date">
+						<h3>Дата рождения</h3>
+						<input required class="input__txt input__date" type="date" id="date" name="birthday" />
+					</label>
+
+					<h3>Ваш Пол</h3>
+					<div class="genders">
+						<label for="male" class="label">
+							<span>Мужской</span>
+							<input required type="radio" class="male" id="male" name="gender" value="Мужской" />
+						</label>
+
+						<label for="female" class="label">
+							<span>Женский</span>
+							<input required type="radio" class="male" id="female" name="gender" value="Женский" />
+						</label>
+					</div>
+
+					<div>
+						<label for="school" class="label label__school">
+							<h3>Выберете школу, в которой вы учились</h3>
+							<select required name="school" id="school" name="school">
+								<option value=""></option>
+								<option value="20">20</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</label>
+					</div>
+
+					<label for="class__number" class="label">
+						<h3>Укажите ваш класс обучения</h3>
+						<input
+							required
+							type="number"
+							name="class__number"
+							class="input__txt input__number"
+							id="class__number"
+							min="1"
+							max="11"
+							placeholder="1-11"
+						/>
+					</label>
+				</div>
+
+				<div class="sec-block">
+					<h2>Изучаемые дисциплины</h2>
+					<div class="disciplines">
+						<label for="layout" class="label">
+							<h3>Верстка</h3>
+							<input
+								required
+								type="radio"
+								name="disciplines-studied[]"
+								class="disciplines-studied"
+								id="layout"
+								value="Верстка"
+								checked
+							/>
+						</label>
+						<label for="front" class="label">
+							<h3>FRONTEnd</h3>
+							<input
+								required
+								type="radio"
+								name="disciplines-studied[]"
+								class="disciplines-studied"
+								id="front"
+								value="FRONTEnd"
+							/>
+						</label>
+						<label for="back" class="label">
+							<h3>BACKEnd</h3>
+							<input
+								required
+								type="radio"
+								name="disciplines-studied[]"
+								class="disciplines-studied"
+								id="back"
+								value="BACKEnd"
+							/>
+						</label>
+					</div>
+				</div>
+				<div>
+					<h2>Изучаемые Технологии</h2>
+					<div class="technologies">
+						<label for="html" class="label">
+							HTML
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="html"
+								value="HTML"
+								checked
+							/>
+						</label>
+						<label for="css" class="label">
+							CSS
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="css"
+								value="CSS"
+								checked
+							/>
+						</label>
+						<label for="javascript" class="label">
+							JavaScript
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="javascript"
+								value="JavaScript"
+							/>
+						</label>
+						<label for="dom" class="label">
+							DOM
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="dom"
+								value="DOM"
+							/>
+						</label>
+						<label for="bom" class="label">
+							BOM
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="bom"
+								value="BOM"
+							/>
+						</label>
+						<label for="php" class="label">
+							PHP
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="php"
+								value="PHP"
+							/>
+						</label>
+						<label for="ajax" class="label">
+							Ajax
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="ajax"
+								value="Ajax"
+							/>
+						</label>
+						<label for="sql" class="label">
+							MySQL
+							<input
+								type="checkbox"
+								name="technologies__studied[]"
+								class="technologies__studied"
+								id="sql"
+								value="MySQL"
+							/>
+						</label>
+					</div>
+				</div>
+
+				<div class="third-block">
+					<h2>Комментарии</h2>
+					<label for="comm">
+						<textarea name="comment" id="comm"></textarea>
+					</label>
+				</div>
+				<div class="buttons">
+					<button type="submit">Oтправить данные</button>
+					<button type="reset">Очистить форму</button>
+					<div class="prank">
+						<button type="button" class="strong__button">Очень важная кнопка</button>
+						<div>Эта кнопка ничего не делает)</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
