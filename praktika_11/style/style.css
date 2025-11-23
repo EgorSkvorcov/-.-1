@@ -1,0 +1,63 @@
+body {
+	background: thistle;
+	padding-top: 70px;
+	width: 100%;
+}
+
+header {
+	height: 70px;
+	background: darkcyan;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	background: chocolate;
+	padding: 10px;
+	display: inline-block;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transform-origin: 50% 50%;
+	transform: rotate(45deg);
+	margin: 120px auto;
+	width: 110px;
+	height: 110px;
+	color: darkgoldenrod;
+	background-color: darkgoldenrod;
+
+	animation: animation 5s linear forwards;
+}
+
+@keyframes animation {
+	0% {
+		color: darkgoldenrod;
+		border-radius: 0%;
+		width: 110px;
+		height: 110px;
+	}
+	10% {
+		color: darkgoldenrod;
+		border-radius: 50%;
+		width: 110px;
+	}
+	95% {
+		color: darkgoldenrod;
+		transform: translateY(calc(-120px - 110px / 2 - 70px / 2));
+		border-radius: 50%;
+		width: 110px;
+		height: 110px;
+	}
+	100% {
+		color: black;
+		border-radius: 0%;
+		width: 250px;
+		height: 50px;
+		transform: translateY(calc(-120px - 50px / 2 - 70px / 2));
+	}
+}
